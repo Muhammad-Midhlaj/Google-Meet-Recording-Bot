@@ -30,10 +30,10 @@ npm install puppeteer-extra puppeteer-extra-plugin-stealth google-apis-nodejs-cl
 
 4. Create the main files:
 ```bash
-touch index.js recording-utils.js .env
+git clone https://github.com/Muhammad-Midhlaj/Google-Meet-Recording-Bot
 ```
 
-5. Copy the code from the provided artifacts into `index.js` and `recording-utils.js`
+
 
 ## Configuration
 
@@ -44,7 +44,7 @@ touch index.js recording-utils.js .env
    - Create OAuth 2.0 credentials
    - Download the credentials JSON file
 
-2. Configure your environment variables in the `.env` file:
+2. Create and Configure your environment variables in the `.env` file:
 ```
 GOOGLE_EMAIL=your-email@gmail.com
 GOOGLE_PASSWORD=your-password
@@ -79,9 +79,9 @@ The bot will:
 5. Continue recording until you press Ctrl+C or the meeting ends
 6. Save the recording locally and optionally upload it to Google Drive
 
-## Customization
+## TODO
 
-You can modify the code to:
+
 - Schedule recordings at specific times
 - Join multiple meetings sequentially
 - Change recording quality settings
